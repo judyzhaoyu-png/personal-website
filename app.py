@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Judy Zhao", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Judy Zhao", layout="wide")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
@@ -10,9 +10,7 @@ page = st.sidebar.radio("Go to:", ["Home", "Experience", "Projects", "Skills", "
 if page == "Home":
     st.title("Hi, I'm Judy 👋")
     st.write("""
-    I'm a business and finance student with interests in data analysis, financial markets, 
-    and understanding how businesses make decisions.  
-    This site is where I share my experience, projects, and what I'm learning.
+    I'm a business and finance new grad, but this site exists because there is a real person behind these applications.
     """)
     st.image("https://via.placeholder.com/800x200?text=Your+Hero+Banner+Here", use_container_width=True)
 
@@ -65,3 +63,4 @@ elif page == "Contact":
     st.title("Contact")
     st.write("📧 Email: judyzhaoyu@gmail.com")
     st.write("🔗 LinkedIn: https://linkedin.com/in/yourprofile")
+
