@@ -12,7 +12,6 @@ if page == "Home":
     st.write("""
     I'm a business and finance new grad, but this site exists because there is a real person behind these applications.
     """)
-    st.image("mainPagePhoto.jpg", width=250)
 
 # EXPERIENCE PAGE
 elif page == "Experience":
@@ -63,5 +62,6 @@ elif page == "Contact":
     st.title("Contact")
     st.write("📧 Email: judyzhaoyu@gmail.com")
     st.write("🔗 LinkedIn: http://www.linkedin.com/in/judyzhaoyu")
+
 
 
