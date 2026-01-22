@@ -18,9 +18,10 @@ elif page == "Experience":
     st.title("Experience")
     with st.expander("💼 Finance / Business Roles"):
         st.write("""
-        **Role Name** — Company  
-        *Month Year – Month Year*  
-        - Bullet point describing what you did  
+        **Server** - Lake Bonavista Retirement  
+        *Dec 2025 - Present*  
+        - Manage high-volume, time-sensitive service workflows for 200+ residents per shift, prioritizing tasks to ensure accuracy,
+        efficiency, and consistent service delivery in a regulated environment
         - Another bullet point  
         """)
 
@@ -62,6 +63,7 @@ elif page == "Contact":
     st.title("Contact")
     st.write("📧 Email: judyzhaoyu@gmail.com")
     st.write("🔗 LinkedIn: http://www.linkedin.com/in/judyzhaoyu")
+
 
 
 
