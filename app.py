@@ -16,7 +16,7 @@ if page == "Home":
 # EXPERIENCE PAGE
 elif page == "Experience":
     st.title("Experience")
-    with st.expander("💼 Finance / Business Roles"):
+    with st.expander("Work Experience"):
         st.write("""
         **Server** - Lake Bonavista Retirement  
         *Dec 2025 - Present*  
@@ -27,10 +27,19 @@ elif page == "Experience":
 
     with st.expander("🛠 Other Work"):
         st.write("""
-        **Job Title** — Company  
-        *Month Year – Month Year*  
-        - Bullet point  
-        - Bullet point  
+        **Server** - Lake Bonavista Retirement  
+        *Dec 2025 - Present*  
+        - Manage high-volume, time-sensitive service workflows for 200+ residents per shift, prioritizing tasks to ensure accuracy, efficiency,
+         and consistent service delivery in a regulated environment
+        - Process and retain multiple concurrent, demonstrating strong short-term memory, attention to detail, and error prevention under pressure
+        - Execute efficient task batching and time estimation by delivering multiple items per run, reducing delays and optimizing operational throughput
+        - Continuously monitor service status and anticipate needs through real-time scanning of tables and dining areas, enabling proactive refills,
+        timely dessert delivery, and issue prevention
+        - Maintain accurate handling of dietary requirements, allergies, and special accommodations, reinforcing compliance standards 
+        and minimizing operational and safety risk
+        - Support team productivity by restocking supplies and assisting colleagues to ensure uninterrupted service flow and operational continuity
+        - Navigate challenging client interactions with professionalism and emotional control, remaining calm and solution-oriented when residents experience confusion,
+        sensory limitations, or sudden behavioral changes.
         """)
 
 # PROJECTS PAGE
@@ -63,6 +72,7 @@ elif page == "Contact":
     st.title("Contact")
     st.write("📧 Email: judyzhaoyu@gmail.com")
     st.write("🔗 LinkedIn: http://www.linkedin.com/in/judyzhaoyu")
+
 
 
 
