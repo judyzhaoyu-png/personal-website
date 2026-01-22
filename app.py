@@ -29,7 +29,7 @@ elif page == "Experience":
         st.write("""
         **Server** - Lake Bonavista Retirement  
         *Dec 2025 - Present*  
-        - 
+        - I serve old people with dementia
         """)
 
 # PROJECTS PAGE
@@ -62,6 +62,7 @@ elif page == "Contact":
     st.title("Contact")
     st.write("📧 Email: judyzhaoyu@gmail.com")
     st.write("🔗 LinkedIn: http://www.linkedin.com/in/judyzhaoyu")
+
 
 
 
