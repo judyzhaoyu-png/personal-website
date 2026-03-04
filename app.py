@@ -60,9 +60,10 @@ elif page == "Skills":
 # CONTACT PAGE
 elif page == "Contact":
     st.title("Contact")
-    st.write("Email: judyzhaoyu@gmail.com")
     st.write("Mobile: (587) 839-0908")
+    st.write("Email: judyzhaoyu@gmail.com")
     st.write("LinkedIn: http://www.linkedin.com/in/judyzhaoyu")
+
 
 
 
